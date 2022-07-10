@@ -1,10 +1,10 @@
 # AstFocus
 This repository provides a simple implementation of the work [“Efficient Robustness Assessment via
-Adversarial Spatial-Temporal Focus on Videos”](https://dl.acm.org/doi/abs/10.1145/3474085.3475395)
+Adversarial Spatial-Temporal Focus on Videos”]
 
 **Demo:**
 
-Here, we provide 3 video clips in folder "c3d_hmdb51_np_vid", you can run the following script and observe the effect:
+Here,5 video clips are provided in folder "c3d_hmdb51_np_vid", you can test them ：
 
 ```python
 python Untarget_attack_test.py   # untargeted attack
