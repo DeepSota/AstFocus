@@ -4,7 +4,7 @@ Adversarial Spatial-Temporal Focus on Videos”]
 
 **Demo:**
 
-Here,5 video clips are provided in folder "c3d_hmdb51_np_vid", you can test them ：
+Here,5 video clips are provided in folder "numpy_video", you can test them ：
 
 ```python
 python Untarget_attack_test.py   # untargeted attack
