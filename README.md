@@ -1,9 +1,6 @@
 # AstFocus
-This repository provides a simple implementation of the work [“Efficient Sparse Attacks on Videos using Reinforcement Learning”](https://dl.acm.org/doi/abs/10.1145/3474085.3475395)
-
-**Example:**
-
-![](example.jpg)
+This repository provides a simple implementation of the work [“Efficient Robustness Assessment via
+Adversarial Spatial-Temporal Focus on Videos”](https://dl.acm.org/doi/abs/10.1145/3474085.3475395)
 
 **Demo:**
 
