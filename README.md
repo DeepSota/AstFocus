@@ -13,7 +13,7 @@ python Untarget_attack_test.py   # untargeted attack
 **Untargeted Attack:**
 
 ```python
-python Untarget_attack.py    # targeted attack
+python Untarget_attack.py    # untargeted attack
 ```
 
 **Targeted Attack:**
