@@ -38,7 +38,7 @@ def main(args):
 
     attacked_ids = np.arange(0, 5)
     def GetPairs( idx):
-        x0 = torch.from_numpy(np.load('{}_{}_np_vid/{}.npy'.format(model_name, dataset_name, idx)))
+        x0 = torch.from_numpy(np.load('numpy_video/{}.npy'.format(idx)))
         print('----vid{}-----'.format(idx))
         return x0.cuda(), x0
 
