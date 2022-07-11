@@ -22,13 +22,13 @@ def get_args():
 	parser.add_argument('--num_segments', type=int, default=16)
 	parser.add_argument('--k', type=int, default=3)
 	parser.add_argument('--dropout', type=float, default=0.5)
-	parser.add_argument('--num_classes', type=int, default=51)    # 120
+	parser.add_argument('--num_classes', type=int, default=51)    
 	parser.add_argument('--backbone_lr', type=float, default=0.01)
 	parser.add_argument('--fc_lr', type=float, default=0.005)
 
 	# dataset
 	parser.add_argument('--weight_decay', type=float, default='0.0001')
-	parser.add_argument('--patch_size', type=int, default=66)  # 15以下 容易fail 和炸
+	parser.add_argument('--patch_size', type=int, default=65) 
 
 # ------------------------SUPER TEST---------------------------
 
@@ -39,7 +39,7 @@ def get_args():
 	parser.add_argument('--seed', type=int, default=1007)
 	parser.add_argument('--glance_size', type=int, default=112)
 	parser.add_argument('--policy_lr ', type=float, default='0.0003')
-	parser.add_argument('--feature_map_channels', type=int, default=1280)  # 1500
+	parser.add_argument('--feature_map_channels', type=int, default=1280) 
 	parser.add_argument('--action_dim', type=int, default=49)
 	parser.add_argument('--hidden_state_dim', type=int, default=512)
 	parser.add_argument('--penalty ', type=float, default='0.5')
