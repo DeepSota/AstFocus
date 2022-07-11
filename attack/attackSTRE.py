@@ -372,7 +372,7 @@ def untargeted_video_attack(vid_model, vid, x0, ori_class, args,  eps=0.05,
     GetFeatures = AST_t.extractor  # 特征提取器
     use_adap_lr = False
     reinforce = False
-    if reinforce == False:
+    if reinforce == True:
        max_lr =0.03
        min_lr =2.4e-3
        use_adap_lr = True
