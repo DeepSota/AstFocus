@@ -313,3 +313,21 @@ def tile_images(img_nhwc):
     img_HhWwc = img_HWhwc.transpose(0, 2, 1, 3, 4)
     img_Hh_Ww_c = img_HhWwc.reshape(H * h, W * w, c)
     return img_Hh_Ww_c
+
+
+def process_grad(gs, reinforce):
+    if reinforce:
+        g = torch.sign(gs)
+    else:
+        g = torch.tensor(gs)
+    return g
+
+
+
+def speed_up_process(len_frame,len_limit):
+    actions_t = random.sample(range(0, 16), len_limit)
+    key_t = torch.zeros(len_frame)
+    key_t[actions_t] = 1
+    neg_numpy = np.array(actions_t)
+    actions_t = torch.from_numpy(neg_numpy)
+    return actions_t,key_t
