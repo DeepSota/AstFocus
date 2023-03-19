@@ -20,7 +20,10 @@ python Target_attack_test.py    # targeted attack
 **Please cite:**
 
 ```
-@inproceedings{
+@inproceedings{Xingxing2023EfficientRA,
+  title={Efficient Robustness Assessment via Adversarial Spatial-Temporal Focus on Videos},
+  author={Wei Xingxing and Wang Songping and Yan Huanqian},
+  year={2023}
 }
 ```
 
