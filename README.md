@@ -2,6 +2,8 @@
 This repository provides a simple implementation of the work [“Efficient Robustness Assessment via
 Adversarial Spatial-Temporal Focus on Videos”]
 
+**Code:**
+The code is in the master branches
 **Demo:**
 
 Here,3 video clips are provided in folder "numpy_video", you can test them ：
